@@ -31,6 +31,7 @@ var NPMap = {
   description: 'Orientation Map',
   div: 'map',
   fullscreenControl: true,
+  hashControl: true,
   hooks: {
     preinit: function (callback) {
       L.npmap.util._.appendJsFile([
