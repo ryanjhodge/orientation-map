@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Crescent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.80905151367186,
+          48.058348493290794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoh Rainforest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.93247604370117,
+          47.860051990397146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinault Rainforest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8663864135742,
+          47.47614374685794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Staircase"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.32942962646484,
+          47.516157274759586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hurricane Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.49721789360046,
+          47.969891660325715
+        ]
+      }
+    }
+  ]
+}
