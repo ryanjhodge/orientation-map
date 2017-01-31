@@ -57,11 +57,24 @@ var NPMap = {
   //   [49.499, -120.552]
   // ],
   minZoom: 8,
-  overlays: [{
-    preset: 'nps-places-pois',
-    unitCodes: [
-      'olym'
-    ]
+  overlays: [
+    // {
+    // preset: 'nps-places-pois',
+    // unitCodes: [
+    //   'olym'
+    // ]},
+    {
+    popup: {
+      actions: [{
+        handler: function() {
+          window.alert('Clicked!');
+        },
+        text: 'Learn More'
+      }],
+      title: '{{name}}'
+    },
+    type: 'geojson',
+    url: '../../localities.geojson',
   }],
   title: 'Olympic National Park',
   zoom: 8,
