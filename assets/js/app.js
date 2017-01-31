@@ -71,7 +71,8 @@ var NPMap = {
         },
         text: 'Learn More'
       }],
-      title: '{{name}}'
+      title: '{{name}}',
+      description: '<p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
     },
     type: 'geojson',
     url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/localities.geojson',

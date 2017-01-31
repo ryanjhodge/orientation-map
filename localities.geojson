@@ -4,7 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lake Crescent"
+        "name": "Lake Crescent",
+        "blurb": "Lake Crescent and the surrounding area is located about 18 miles west of Port Angeles, in the Northern Foothills of the Olympics. The area features the deep, glacially-carved Lake Crescent, hikes through old growth lowland forest, treks to scenic views, and mutiple recreational opportunities like fishing, boating, and biking.",
+        "activities": "Hiking, Fishing, Boating, Ranger Programs",
+        "services": "Lodging, Camping, Restrooms, First Aid"
       },
       "geometry": {
         "type": "Point",
