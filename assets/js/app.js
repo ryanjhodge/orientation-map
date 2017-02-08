@@ -20,9 +20,9 @@ var App = {
 
 var NPMap = {
   baseLayers: [
-    'nps-parkTiles',
-    'nps-parkTilesImagery',
-    'nps-parkTilesSlate'
+    'nps-parkTiles3',
+    'nps-parkTiles3Imagery',
+    'nps-parkTiles3Slate'
   ],
   center: {
     lat: 47.5830,
