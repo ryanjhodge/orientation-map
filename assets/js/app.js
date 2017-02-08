@@ -75,7 +75,7 @@ var NPMap = {
       description: '<p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
     },
     type: 'geojson',
-    url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/localities.geojson',
+    url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/data/localities.geojson'
   }],
   title: 'Olympic National Park',
   zoom: 8,
