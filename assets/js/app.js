@@ -20,9 +20,9 @@ var App = {
 
 var NPMap = {
   baseLayers: [
-    'nps-parkTiles3',
-    'nps-parkTiles3Imagery',
-    'nps-parkTiles3Slate'
+    'nps-parkTiles',
+    'nps-parkTilesImagery',
+    'nps-parkTilesSlate'
   ],
   center: {
     lat: 47.5830,
@@ -78,7 +78,7 @@ var NPMap = {
     url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/data/localities.geojson'
   }],
   title: 'Olympic National Park',
-  zoom: 8,
+  zoom: 9,
   zoomdisplayControl: true
 };
 
