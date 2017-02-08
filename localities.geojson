@@ -68,6 +68,86 @@
           47.969891660325715
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Deer Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.26226711273193,
+          47.95110422491874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Lake Ozette"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.66810941696167,
+          48.155228844878366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Mora and Rialto Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.63756442070007,
+          47.921044496163354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ruby Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.41388964653017,
+          47.70968213042844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kalaloch Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.37283039093016,
+          47.607624216217324
+        ]
+      }
     }
   ]
 }
