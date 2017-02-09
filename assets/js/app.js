@@ -68,6 +68,11 @@ var NPMap = {
       title: '{{name}}',
       description: '<img src="{{photoURL}}" style="width:400px;"><p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
     },
+    styles: {
+      point: {
+        'marker-size': 'small'
+      }
+    },
     type: 'geojson',
     url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/data/localities.geojson'
   }],
