@@ -20,7 +20,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hoh Rainforest"
+        "name": "Hoh Rainforest",
+        "blurb": "The Hoh Rain Forest receives 12-14 feet of rainfall in a typical year (mostly during winter months)! The result is a lush, canopied temperate rainforest full of coniferous & deciduous trees, mosses, and ferns. Watch for Roosevelt Elk sunning along the river or grazing through alder flats, search for banana slugs and diverse fungi along the trails, and marvel at massive fir, spruce, hemlock, and maple in the Hall of Mosses.",
+        "activities": "Hiking, Ranger Programs"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +35,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Quinault Rainforest"
+        "name": "Quinault Rainforest",
+        "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/quinault.jpg",
+        "blurb": "The Quinault Valley is a wilderness gateway to alpine meadows, jeweled lakes and ice-carved peaks. For shorter visits, the scenic loop drive and short trails provide easy access to Quinault’s temperate rain forest, home to rich rushing waterfalls, massive fir, spruce, and cedars, and enchanting moss-covered maple & alder.",
+        "activities": "Hiking, Fishing, Ranger Programs"
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +51,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Staircase"
+        "name": "Staircase",
+        "photoURL": "",
+        "blurb": "The southeastern corner of Olympic National Park, the Staircase area is about a 1 hour drive from Olympia and 2 hours south of Port Angeles. Enormous trunks reach for the sky, lacy limbs stretch to the sun, grooved bark is sanctuary to tiny creatures in the vast cathedral of Douglas-firs that dominate the forests on this side of the Olympic Peninsula. Enjoy a picnic along the Skokomish River, hike steep trails into the southern Olympics, or take a more leisurely hike along the nature trail.",
+        "activities": "Hiking, Fishing"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +67,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hurricane Ridge"
+        "name": "Hurricane Ridge",
+        "blurb": "The most easily-accessed mountain area in the park, Hurricane Ridge provides fantastic views throughout the year. 17 miles south of Port Angeles, Hurricane Ridge is accessible throughout the summer and over weekends during winter (vehicles must carry tire chains). Check road status by calling (360) 565-3131.",
+        "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/hurricane-ridge.jpg",
+        "activities": "Hiking, Ranger Programs, Stargazing, Skiing"
       },
       "geometry": {
         "type": "Point",
@@ -72,7 +83,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Deer Park"
+        "name": "Deer Park",
+        "photoURL": ""
       },
       "geometry": {
         "type": "Point",
@@ -85,7 +97,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lake Ozette"
+        "name": "Lake Ozette",
+        "blurb": "The Lake Ozette area provides access to a rich and diverse landscape. Tall seastacks along the coast, the crystal waters of Lake Ozette, old growth forests, and well-preserved 300-year-old Makah village, and more await visitors.",
+        "activities": "Hiking, Fishing, Boating"
       },
       "geometry": {
         "type": "Point",
@@ -98,7 +112,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mora and Rialto Beach"
+        "name": "Mora and Rialto Beach",
+        "photoURL": "",
+        "blurb": "Rocky beaches, giant drift logs, pounding waves and views of offshore islands known as 'seastacks' are features that define Rialto Beach. Just inland is the Mora area, characterized by towering trees, lush undergrowth and the omnipresent roar of the Pacific Ocean in the background. The Mora & Rialto area is about 36 miles southwest of Lake Crescent, and about 75 miles from Port Angeles.",
+        "activities": "Hiking, Tidepooling"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +128,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Ruby Beach"
+        "name": "Ruby Beach",
+        "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/ruby.jpg",
+        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size!",
+        "activities": "Hiking, Tidepooling, Ranger Programs"
       },
       "geometry": {
         "type": "Point",
@@ -124,13 +144,47 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kalaloch Beach"
+        "name": "Kalaloch Beach",
+        "photoURL": "",
+        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size!",
+        "activities": "Hiking, Tidepooling, Ranger Programs"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -124.37283039093016,
           47.607624216217324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elwha River Valley",
+        "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/elwha.jpg",
+        "blurb": "11 miles west of Port Angeles, the Elwha River Valley is home to one of the largest ecosystem restoration projects in National Parks history. See the dam removal sites, historic Eagle Ranger Station, hike along the river, make the trek to Olympic Hot Springs, witness the seasonal Salmon runs, and more.",
+        "activities": "Hiking, Hot Springs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.60344409942628,
+          48.005572554492545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sol Duc River Valley",
+        "blurb": "Old-growth forest, subalpine lakes, and snowy peaks populate the Sol Duc landscape, while the Sol Duc River serves as a key highway for coho salmon, running through the valley and ascending to the lakes and headwaters in the surrounding mountains. The Sol Duc Valley is located in the northwest region of the park, about 40 minutes west of Port Angeles.",
+        "activities": "Hiking, Hot Springs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.83522987365723,
+          47.95495566704114
         ]
       }
     }
