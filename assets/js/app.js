@@ -25,7 +25,7 @@ var NPMap = {
     'nps-parkTiles3Slate'
   ],
   center: {
-    lat: 47.5830,
+    lat: 47.8049,
     lng: -123.4561
   },
   description: 'Orientation Map',
