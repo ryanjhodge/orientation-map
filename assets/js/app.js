@@ -57,16 +57,10 @@ var NPMap = {
   //   [49.499, -120.552]
   // ],
   minZoom: 8,
-  overlays: [
-    // {
-    // preset: 'nps-places-pois',
-    // unitCodes: [
-    //   'olym'
-    // ]},
-    {
+  overlays: [{
     popup: {
       actions: [{
-        handler: function() {
+        handler: function () {
           window.alert('Clicked!');
         },
         text: 'Learn More'
