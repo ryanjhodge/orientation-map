@@ -61,9 +61,10 @@ var NPMap = {
     popup: {
       actions: [{
         handler: function () {
-          window.alert('Clicked!');
+          var win = window.open("https://youtu.be/5aFYZV_PLJs", '_blank');
+          win.focus();
         },
-        text: 'Learn More'
+        text: 'Watch a video of the area'
       }],
       title: '{{name}}',
       description: '<img src="{{photoURL}}" style="width:400px;"><p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
