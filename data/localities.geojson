@@ -5,9 +5,9 @@
       "type": "Feature",
       "properties": {
         "name": "Lake Crescent",
-        "blurb": "Lake Crescent and the surrounding area is located about 18 miles west of Port Angeles, in the Northern Foothills of the Olympics. The area features the deep, glacially-carved Lake Crescent, hikes through old growth lowland forest, treks to scenic views, and mutiple recreational opportunities like fishing, boating, and biking.",
-        "activities": "Hiking, Fishing, Boating, Ranger Programs",
-        "services": "Lodging, Camping, Restrooms, First Aid"
+        "blurb": "Carved by glaciers, Lake Crescent is deep, clear and beautiful.  The lake is surrounded by mossy old growth forests, hiking trails to waterfalls and scenic peaks, and hugged on one side by the Spruce Railroad Trail, a paved route for easy walking and cycling.",
+        "activities": "Hiking, Fishing, Boating, Ranger Programs, Swimming, Bicycling (in some areas), Picnicking",
+        "services": "Lodging, Camping, Restrooms, First Aid, Restaurants, Boat Rental"
       },
       "geometry": {
         "type": "Point",
@@ -21,8 +21,9 @@
       "type": "Feature",
       "properties": {
         "name": "Hoh Rainforest",
-        "blurb": "The Hoh Rain Forest receives 12-14 feet of rainfall in a typical year (mostly during winter months)! The result is a lush, canopied temperate rainforest full of coniferous & deciduous trees, mosses, and ferns. Watch for Roosevelt Elk sunning along the river or grazing through alder flats, search for banana slugs and diverse fungi along the trails, and marvel at massive fir, spruce, hemlock, and maple in the Hall of Mosses.",
-        "activities": "Hiking, Ranger Programs"
+        "blurb": "The Hoh is a lush, canopied temperate rainforest full of coniferous and deciduous trees, mosses, and ferns. Look for Roosevelt Elk sunning along the Hoh River or grazing through alder flats, search for banana slugs and diverse fungi along the trails, and marvel at massive fir, spruce, hemlock, and maple trees.",
+        "activities": "Hiking, Ranger Programs, Picnicking",
+        "services": "Visitor Center (seasonal), Restrooms, Camping"
       },
       "geometry": {
         "type": "Point",
@@ -37,8 +38,9 @@
       "properties": {
         "name": "Quinault Rainforest",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/quinault.jpg",
-        "blurb": "The Quinault Valley is a wilderness gateway to alpine meadows, jeweled lakes and ice-carved peaks. For shorter visits, the scenic loop drive and short trails provide easy access to Quinault’s temperate rain forest, home to rich rushing waterfalls, massive fir, spruce, and cedars, and enchanting moss-covered maple & alder.",
-        "activities": "Hiking, Fishing, Ranger Programs"
+        "blurb": "The Quinault valley is a wilderness gateway to alpine meadows, jeweled lakes and ice-carved peaks. For shorter visits, the scenic loop drive and short trails provide easy access to Quinault’s temperate rain forest, home to rushing waterfalls, massive fir, spruce, and cedars, enchanting moss-covered maple and alder, and a historic homestead.",
+        "activities": "Hiking, Fishing, Ranger Programs, Picnicking",
+        "services": "Ranger Station (seasonal), Restrooms, Camping"
       },
       "geometry": {
         "type": "Point",
@@ -53,8 +55,9 @@
       "properties": {
         "name": "Staircase",
         "photoURL": "",
-        "blurb": "The southeastern corner of Olympic National Park, the Staircase area is about a 1 hour drive from Olympia and 2 hours south of Port Angeles. Enormous trunks reach for the sky, lacy limbs stretch to the sun, grooved bark is sanctuary to tiny creatures in the vast cathedral of Douglas-firs that dominate the forests on this side of the Olympic Peninsula. Enjoy a picnic along the Skokomish River, hike steep trails into the southern Olympics, or take a more leisurely hike along the nature trail.",
-        "activities": "Hiking, Fishing"
+        "blurb": "The southeastern corner of Olympic, the Staircase area is isolated from many of the more visited regions of the park.  Thus set apart and reachable only by a gravel road, the cathedral-like Douglas fir forest and jade waters of the Skokomish River feel like a sanctuary.",
+        "activities": "Hiking, Fishing, Picnicking",
+        "services": "Ranger Station (seasonal), Camping, Restrooms, Stock Corral"
       },
       "geometry": {
         "type": "Point",
@@ -68,9 +71,10 @@
       "type": "Feature",
       "properties": {
         "name": "Hurricane Ridge",
-        "blurb": "The most easily-accessed mountain area in the park, Hurricane Ridge provides fantastic views throughout the year. 17 miles south of Port Angeles, Hurricane Ridge is accessible throughout the summer and over weekends during winter (vehicles must carry tire chains). Check road status by calling (360) 565-3131.",
+        "blurb": "Most of Olympic's mountain peaks are in remote wilderness and can only be reached by hiking, but Hurricane Ridge is one exception.  The ridge is open to cars, reached by a winding, 17-mile road from Port Angeles, with stunning panoramic views, hiking trails, and a visitor center. Open throughout the summer and on weekends during winter (vehicles must carry tire chains). Check road status by calling (360) 565-3131 and visit the webcams to see current conditions.",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/hurricane-ridge.jpg",
-        "activities": "Hiking, Ranger Programs, Stargazing, Skiing"
+        "activities": "Hiking, Ranger Programs, Stargazing, Skiing (in winter), Picnicking",
+        "services": "Restrooms, Restaurant, Visitor Center, Information, Ski and Snowshoe Rental (winter)"
       },
       "geometry": {
         "type": "Point",
@@ -84,7 +88,10 @@
       "type": "Feature",
       "properties": {
         "name": "Deer Park",
-        "photoURL": ""
+        "photoURL": "",
+        "blurb": "The road to Deer Park is beautiful but much rougher than the road to Hurricane Ridge, narrow and steep with only nine of its 18 miles paved.  The reward is stunning panoramic mountain views in a relatively quiet and undeveloped setting.  Bring water with you, as there is no potable water at Deer Park.",
+        "activities": "Hiking, Picnicking",
+        "services": "Camping, Restrooms"
       },
       "geometry": {
         "type": "Point",
@@ -98,8 +105,9 @@
       "type": "Feature",
       "properties": {
         "name": "Lake Ozette",
-        "blurb": "The Lake Ozette area provides access to a rich and diverse landscape. Tall seastacks along the coast, the crystal waters of Lake Ozette, old growth forests, and well-preserved 300-year-old Makah village, and more await visitors.",
-        "activities": "Hiking, Fishing, Boating"
+        "blurb": "From the Ozette area you can explore varied landscapes and rich history.  From the crystal waters of Lake Ozette itself through old growth forests to rocky sea stacks along the coast, this area's remoteness makes it feel wild and serene.  Visitors can see seals, gray whales on their migration, and a well-preserved 300-year-old Makah village.",
+        "activities": "Hiking, Fishing, Boating, Picnicking",
+        "services": "Ranger Station (seasonal), Restrooms, Camping"
       },
       "geometry": {
         "type": "Point",
@@ -114,8 +122,9 @@
       "properties": {
         "name": "Mora and Rialto Beach",
         "photoURL": "",
-        "blurb": "Rocky beaches, giant drift logs, pounding waves and views of offshore islands known as 'seastacks' are features that define Rialto Beach. Just inland is the Mora area, characterized by towering trees, lush undergrowth and the omnipresent roar of the Pacific Ocean in the background. The Mora & Rialto area is about 36 miles southwest of Lake Crescent, and about 75 miles from Port Angeles.",
-        "activities": "Hiking, Tidepooling"
+        "blurb": "Rocky beaches, giant drift logs, pounding waves and views of offshore islands known as 'seastacks' are features that define Rialto Beach. Just inland is the Mora area, characterized by towering trees, lush undergrowth and the omnipresent roar of the Pacific Ocean in the background.",
+        "activities": "Hiking, Tidepooling, Picnicking",
+        "services": "Camping, Restrooms, Ranger Station (seasonal)"
       },
       "geometry": {
         "type": "Point",
@@ -130,7 +139,7 @@
       "properties": {
         "name": "Ruby Beach",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/ruby.jpg",
-        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size!",
+        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size.",
         "activities": "Hiking, Tidepooling, Ranger Programs"
       },
       "geometry": {
@@ -146,8 +155,9 @@
       "properties": {
         "name": "Kalaloch Beach",
         "photoURL": "",
-        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size!",
-        "activities": "Hiking, Tidepooling, Ranger Programs"
+        "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size.",
+        "activities": "Hiking, Tidepooling, Ranger Programs, Picnicking",
+        "services": "Ranger Station (seasonal), Camping, Restrooms, Lodging, Restaurant"
       },
       "geometry": {
         "type": "Point",
@@ -162,8 +172,9 @@
       "properties": {
         "name": "Elwha River Valley",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/elwha.jpg",
-        "blurb": "11 miles west of Port Angeles, the Elwha River Valley is home to one of the largest ecosystem restoration projects in National Parks history. See the dam removal sites, historic Eagle Ranger Station, hike along the river, make the trek to Olympic Hot Springs, witness the seasonal Salmon runs, and more.",
-        "activities": "Hiking, Hot Springs"
+        "blurb": "In 2014, one of the largest dam removal and ecosystem restoration projects in national parks history was completed in the Elwha valley. Today, you can see the dam removal sites, witness the return of salmon to their ancestral runs, hike along the newly free river or to Olympic Hot Springs, and visit the historic Eagle Ranger Station.",
+        "activities": "Hiking, Hot Springs, Scenic Overlook, Fishing (catch and release)",
+        "services": "Restrooms, Ranger Station (seasonal)"
       },
       "geometry": {
         "type": "Point",
@@ -177,8 +188,9 @@
       "type": "Feature",
       "properties": {
         "name": "Sol Duc River Valley",
-        "blurb": "Old-growth forest, subalpine lakes, and snowy peaks populate the Sol Duc landscape, while the Sol Duc River serves as a key highway for coho salmon, running through the valley and ascending to the lakes and headwaters in the surrounding mountains. The Sol Duc Valley is located in the northwest region of the park, about 40 minutes west of Port Angeles.",
-        "activities": "Hiking, Hot Springs"
+        "blurb": "Some of this area's most popular attractions are the hot springs, the short hike to majestic Sol Duc Falls, and watching salmon leap at the Salmon Cascades overlook in the fall.  The Sol Duc valley is also the starting point for longer hikes through old-growth forests to subalpine lakes and snowy mountain peaks.",
+        "activities": "Hiking, Hot Springs, Picnicking",
+        "services": "Camping, Lodging (seasonal), Restrooms"
       },
       "geometry": {
         "type": "Point",
