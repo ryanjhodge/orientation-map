@@ -7,7 +7,8 @@
         "name": "Lake Crescent",
         "blurb": "Carved by glaciers, Lake Crescent is deep, clear and beautiful.  The lake is surrounded by mossy old growth forests, hiking trails to waterfalls and scenic peaks, and hugged on one side by the Spruce Railroad Trail, a paved route for easy walking and cycling.",
         "activities": "Hiking, Fishing, Boating, Ranger Programs, Swimming, Bicycling (in some areas), Picnicking",
-        "services": "Lodging, Camping, Restrooms, First Aid, Restaurants, Boat Rental"
+        "services": "Lodging, Camping, Restrooms, First Aid, Restaurants, Boat Rental",
+        "videoURL": "https://youtu.be/UiL36ZxLP_k"
       },
       "geometry": {
         "type": "Point",
@@ -23,7 +24,8 @@
         "name": "Hoh Rainforest",
         "blurb": "The Hoh is a lush, canopied temperate rainforest full of coniferous and deciduous trees, mosses, and ferns. Look for Roosevelt Elk sunning along the Hoh River or grazing through alder flats, search for banana slugs and diverse fungi along the trails, and marvel at massive fir, spruce, hemlock, and maple trees.",
         "activities": "Hiking, Ranger Programs, Picnicking",
-        "services": "Visitor Center (seasonal), Restrooms, Camping"
+        "services": "Visitor Center (seasonal), Restrooms, Camping",
+        "videoURL": "https://youtu.be/NrI7zM0coxw"
       },
       "geometry": {
         "type": "Point",
@@ -40,7 +42,8 @@
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/quinault.jpg",
         "blurb": "The Quinault valley is a wilderness gateway to alpine meadows, jeweled lakes and ice-carved peaks. For shorter visits, the scenic loop drive and short trails provide easy access to Quinault’s temperate rain forest, home to rushing waterfalls, massive fir, spruce, and cedars, enchanting moss-covered maple and alder, and a historic homestead.",
         "activities": "Hiking, Fishing, Ranger Programs, Picnicking",
-        "services": "Ranger Station (seasonal), Restrooms, Camping"
+        "services": "Ranger Station (seasonal), Restrooms, Camping",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +60,8 @@
         "photoURL": "",
         "blurb": "The southeastern corner of Olympic, the Staircase area is isolated from many of the more visited regions of the park.  Thus set apart and reachable only by a gravel road, the cathedral-like Douglas fir forest and jade waters of the Skokomish River feel like a sanctuary.",
         "activities": "Hiking, Fishing, Picnicking",
-        "services": "Ranger Station (seasonal), Camping, Restrooms, Stock Corral"
+        "services": "Ranger Station (seasonal), Camping, Restrooms, Stock Corral",
+        "videoURL": "https://youtu.be/yO5wtVlLqW4"
       },
       "geometry": {
         "type": "Point",
@@ -74,7 +78,8 @@
         "blurb": "Most of Olympic's mountain peaks are in remote wilderness and can only be reached by hiking, but Hurricane Ridge is one exception.  The ridge is open to cars, reached by a winding, 17-mile road from Port Angeles, with stunning panoramic views, hiking trails, and a visitor center. Open throughout the summer and on weekends during winter (vehicles must carry tire chains). Check road status by calling (360) 565-3131 and visit the webcams to see current conditions.",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/hurricane-ridge.jpg",
         "activities": "Hiking, Ranger Programs, Stargazing, Skiing (in winter), Picnicking",
-        "services": "Restrooms, Restaurant, Visitor Center, Information, Ski and Snowshoe Rental (winter)"
+        "services": "Restrooms, Restaurant, Visitor Center, Information, Ski and Snowshoe Rental (winter)",
+        "videoURL": "https://youtu.be/RYzWf-1Bim8"
       },
       "geometry": {
         "type": "Point",
@@ -91,7 +96,8 @@
         "photoURL": "",
         "blurb": "The road to Deer Park is beautiful but much rougher than the road to Hurricane Ridge, narrow and steep with only nine of its 18 miles paved.  The reward is stunning panoramic mountain views in a relatively quiet and undeveloped setting.  Bring water with you, as there is no potable water at Deer Park.",
         "activities": "Hiking, Picnicking",
-        "services": "Camping, Restrooms"
+        "services": "Camping, Restrooms",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -107,7 +113,8 @@
         "name": "Lake Ozette",
         "blurb": "From the Ozette area you can explore varied landscapes and rich history.  From the crystal waters of Lake Ozette itself through old growth forests to rocky sea stacks along the coast, this area's remoteness makes it feel wild and serene.  Visitors can see seals, gray whales on their migration, and a well-preserved 300-year-old Makah village.",
         "activities": "Hiking, Fishing, Boating, Picnicking",
-        "services": "Ranger Station (seasonal), Restrooms, Camping"
+        "services": "Ranger Station (seasonal), Restrooms, Camping",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +131,8 @@
         "photoURL": "",
         "blurb": "Rocky beaches, giant drift logs, pounding waves and views of offshore islands known as 'seastacks' are features that define Rialto Beach. Just inland is the Mora area, characterized by towering trees, lush undergrowth and the omnipresent roar of the Pacific Ocean in the background.",
         "activities": "Hiking, Tidepooling, Picnicking",
-        "services": "Camping, Restrooms, Ranger Station (seasonal)"
+        "services": "Camping, Restrooms, Ranger Station (seasonal)",
+        "videoURL": "https://youtu.be/5aFYZV_PLJs"
       },
       "geometry": {
         "type": "Point",
@@ -140,7 +148,8 @@
         "name": "Ruby Beach",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/ruby.jpg",
         "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size.",
-        "activities": "Hiking, Tidepooling, Ranger Programs"
+        "activities": "Hiking, Tidepooling, Ranger Programs",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -157,7 +166,8 @@
         "photoURL": "",
         "blurb": "The Kalaloch Area coastal waters provide a safe haven for thousands of marine species. Multiple beach access points provide stunning views of sea stacks and the grand Pacific coastline, fascinating tide pools, offshore islands, and marine life of every shape and size.",
         "activities": "Hiking, Tidepooling, Ranger Programs, Picnicking",
-        "services": "Ranger Station (seasonal), Camping, Restrooms, Lodging, Restaurant"
+        "services": "Ranger Station (seasonal), Camping, Restrooms, Lodging, Restaurant",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -174,7 +184,8 @@
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/elwha.jpg",
         "blurb": "In 2014, one of the largest dam removal and ecosystem restoration projects in national parks history was completed in the Elwha valley. Today, you can see the dam removal sites, witness the return of salmon to their ancestral runs, hike along the newly free river or to Olympic Hot Springs, and visit the historic Eagle Ranger Station.",
         "activities": "Hiking, Hot Springs, Scenic Overlook, Fishing (catch and release)",
-        "services": "Restrooms, Ranger Station (seasonal)"
+        "services": "Restrooms, Ranger Station (seasonal)",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +201,8 @@
         "name": "Sol Duc River Valley",
         "blurb": "Some of this area's most popular attractions are the hot springs, the short hike to majestic Sol Duc Falls, and watching salmon leap at the Salmon Cascades overlook in the fall.  The Sol Duc valley is also the starting point for longer hikes through old-growth forests to subalpine lakes and snowy mountain peaks.",
         "activities": "Hiking, Hot Springs, Picnicking",
-        "services": "Camping, Lodging (seasonal), Restrooms"
+        "services": "Camping, Lodging (seasonal), Restrooms",
+        "videoURL": null
       },
       "geometry": {
         "type": "Point",
