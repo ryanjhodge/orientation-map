@@ -71,7 +71,7 @@ var NPMap = {
     },
     styles: {
       point: {
-        'marker-size': 'small'
+        'marker-size': 'medium'
       }
     },
     type: 'geojson',
