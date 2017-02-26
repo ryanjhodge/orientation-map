@@ -59,6 +59,9 @@ var NPMap = {
   // ],
   minZoom: 8,
   overlays: [{
+    type: "mapbox",
+    id: "ryanjhodge.eb91f439"
+  },{
     popup: {
       actions: [{
         handler: function () {
