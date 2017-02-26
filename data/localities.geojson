@@ -21,7 +21,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hoh Rainforest",
+        "name": "Hoh Rain Forest",
         "blurb": "The Hoh is a lush, canopied temperate rainforest full of coniferous and deciduous trees, mosses, and ferns. Look for Roosevelt Elk sunning along the Hoh River or grazing through alder flats, search for banana slugs and diverse fungi along the trails, and marvel at massive fir, spruce, hemlock, and maple trees.",
         "activities": "Hiking, Ranger Programs, Picnicking",
         "services": "Visitor Center (seasonal), Restrooms, Camping",
@@ -38,7 +38,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Quinault Rainforest",
+        "name": "Quinault Rain Forest",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/quinault.jpg",
         "blurb": "The Quinault valley is a wilderness gateway to alpine meadows, jeweled lakes and ice-carved peaks. For shorter visits, the scenic loop drive and short trails provide easy access to Quinault’s temperate rain forest, home to rushing waterfalls, massive fir, spruce, and cedars, enchanting moss-covered maple and alder, and a historic homestead.",
         "activities": "Hiking, Fishing, Ranger Programs, Picnicking",
@@ -127,7 +127,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Mora and Rialto Beach",
+        "name": "Mora & Rialto Beach",
         "photoURL": "",
         "blurb": "Rocky beaches, giant drift logs, pounding waves and views of offshore islands known as 'seastacks' are features that define Rialto Beach. Just inland is the Mora area, characterized by towering trees, lush undergrowth and the omnipresent roar of the Pacific Ocean in the background.",
         "activities": "Hiking, Tidepooling, Picnicking",
@@ -180,7 +180,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Elwha River Valley",
+        "name": "Elwha Valley",
         "photoURL": "https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/assets/img/elwha.jpg",
         "blurb": "In 2014, one of the largest dam removal and ecosystem restoration projects in national parks history was completed in the Elwha valley. Today, you can see the dam removal sites, witness the return of salmon to their ancestral runs, hike along the newly free river or to Olympic Hot Springs, and visit the historic Eagle Ranger Station.",
         "activities": "Hiking, Hot Springs, Scenic Overlook, Fishing (catch and release)",
@@ -198,7 +198,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sol Duc River Valley",
+        "name": "Sol Duc Valley",
         "blurb": "Some of this area's most popular attractions are the hot springs, the short hike to majestic Sol Duc Falls, and watching salmon leap at the Salmon Cascades overlook in the fall.  The Sol Duc valley is also the starting point for longer hikes through old-growth forests to subalpine lakes and snowy mountain peaks.",
         "activities": "Hiking, Hot Springs, Picnicking",
         "services": "Camping, Lodging (seasonal), Restrooms",
