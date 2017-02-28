@@ -33,26 +33,26 @@ var NPMap = {
   div: 'map',
   fullscreenControl: true,
   hashControl: true,
-  hooks: {
-    preinit: function (callback) {
-      L.npmap.util._.appendJsFile([
-        'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'
-      ], function () {
-        L.npmap.util._.appendJsFile([
-          'https://www.nps.gov/lib/bootstrap/3.3.2/js/nps-bootstrap.min.js'
-        ], function () {
-          L.npmap.util._.appendCssFile([
-            'https://www.nps.gov/lib/npmap.js/3.0.18/npmap.min.css'
-          ]);
-        });
-      });
-      callback();
-    },
-    init: function (callback) {
-      App.initialize();
-      callback();
-    }
-  },
+  // hooks: {
+  //   preinit: function (callback) {
+  //     L.npmap.util._.appendJsFile([
+  //       'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'
+  //     ], function () {
+  //       L.npmap.util._.appendJsFile([
+  //         'https://www.nps.gov/lib/bootstrap/3.3.2/js/nps-bootstrap.min.js'
+  //       ], function () {
+  //         L.npmap.util._.appendCssFile([
+  //           'https://www.nps.gov/lib/npmap.js/3.0.18/npmap.min.css'
+  //         ]);
+  //       });
+  //     });
+  //     callback();
+  //   },
+  //   init: function (callback) {
+  //     App.initialize();
+  //     callback();
+  //   }
+  // },
   // maxBounds: [
   //   [45.310, -127.225],
   //   [49.499, -120.552]
