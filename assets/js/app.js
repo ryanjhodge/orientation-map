@@ -71,7 +71,7 @@ var NPMap = {
         text: 'Watch a video of the area'
       }],
       title: '{{name}}',
-      description: '<img src="{{photoURL}}" style="width:400px;"><p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
+      description: '<img src="{{photoURL}}" style="width:400px;height:168px"><p>{{blurb}}</p></br><p><b>Activities:</b> {{activities}}</p><br/><p><b>Services:</b> {{services}}</p>'
     },
     styles: {
       point: {
