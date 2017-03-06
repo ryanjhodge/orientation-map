@@ -6,6 +6,9 @@
       body {
         margin: 0;
         padding: 0;
+        font-family: Frutiger,"Frutiger Linotype",Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        line-height: 1.42857143;
+        color: #464646;
       }
       #map {
         bottom: 0;
@@ -13,16 +16,15 @@
         top: 0;
         width: 100%;
       }
-      .title {
-        font: 18px arial, helvetica, san-serif;
+      .leaflet-popup-content .title {
+        font-size: 18px;
         text-transform: uppercase;
         color: #ffffff;
         background: #000000;
         padding: 8px 8px 8px 8px;
-        margin-bottom: 0px !important; 
+        margin-bottom: 0px !important;
       }
       .actions a {
-        font-family: arial, helvetica, sans-serif;
         color: #ffffff !important;
         font-size: 14px;
         font-weight: normal;
@@ -37,10 +39,31 @@
       }
       .description b {
         text-transform: uppercase;
-        font-family: arial, helvetica, sans-serif !important;
         font-weight: bold;
       }
-      .description {margin-bottom: 10px;}
+      .description {
+        margin-bottom: 10px;
+      }
+      section {
+        padding:  15px 0px;
+        border-bottom: 1px solid #ddd;
+        opacity: 0.25;
+      }
+      section.active {
+        opacity: 1;
+      }
+      section:last-child {
+        border-bottom: none;
+      }
+      section:first-child {
+        border-bottom: none;
+      }
+      .npmap-modules .module .title {
+        font-family: Georgia,serif;
+      }
+      .npmap-modules .module h3 {
+        font-family: Georgia,serif;
+      }
 
     </style>
   </head>
