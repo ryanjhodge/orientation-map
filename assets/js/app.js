@@ -2,6 +2,8 @@
 
 var App = {
   initialize: function () {
+    var map = NPMap.config.L;
+    var infoLayer = NPMap.config.overlays[1].L;
     var localitiesModuleContent = document.getElementById('npmap-module_Localities').childNodes[1];
     var localities = this.localities;
 
@@ -23,6 +25,14 @@ var App = {
 
     localitiesModuleContent.firstChild.setAttribute('class', 'active');
     localitiesModuleContent.lastChild.style.marginBottom = String(window.innerHeight * 0.50) + 'px';
+
+    map.on('zoom', function () {
+      if (map.getZoom() >= 13) {
+        map.addLayer(infoLayer);
+      } else {
+        map.removeLayer(infoLayer);
+      }
+    });
 
     localitiesModuleContent.onscroll = function () {
       var localityNames = Object.keys(localities);
@@ -48,7 +58,6 @@ var App = {
       }
     };
 
-    var map = NPMap.config.L;
     map.removeControl(map.switcherControl);
     map.removeControl(map.homeControl);
     map.removeControl(map.smallzoomControl);
@@ -244,7 +253,9 @@ var NPMap = {
     },
     styles: {
       point: {
-        'marker-size': 'medium'
+        'marker-size': 'large',
+        'marker-symbol': 'information-white',
+        'marker-library': 'npmapsymbollibrary'
       }
     },
     type: 'geojson',
