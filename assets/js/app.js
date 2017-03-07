@@ -7,6 +7,8 @@ var App = {
     var localitiesModuleContent = document.getElementById('npmap-module_Localities').childNodes[1];
     var localities = this.localities;
 
+    map.removeLayer(infoLayer);
+
     for (var key in localities) {
       if (localities.hasOwnProperty(key)) {
         var section = document.createElement('section');
