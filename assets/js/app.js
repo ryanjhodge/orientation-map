@@ -15,7 +15,6 @@ var App = {
         var title = document.createElement('h3');
         var blurb = document.createElement('p');
 
-        // L.DomUtil.addClass(section, 'npmap')
         section.setAttribute('id', key);
         title.innerHTML = localities[key]['name'];
         blurb.innerHTML = localities[key]['blurb'];
