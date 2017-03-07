@@ -116,7 +116,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lake Ozette",
+        "name": "Ozette",
         "blurb": "From the Ozette area you can explore varied landscapes and rich history.  From the crystal waters of Lake Ozette itself through old growth forests to rocky sea stacks along the coast, this area's remoteness makes it feel wild and serene.  Visitors can see seals, gray whales on their migration, and a well-preserved 300-year-old Makah village.",
         "activities": "Hiking, Fishing, Boating, Picnicking",
         "services": "Ranger Station (seasonal), Restrooms, Camping",
@@ -126,8 +126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -124.66866731643677,
-          48.1527594944803
+          -124.66638207435608,
+          48.15401207837436
         ]
       }
     },
