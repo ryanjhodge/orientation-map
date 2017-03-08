@@ -204,7 +204,6 @@ var NPMap = {
     lng: -123.6703
   },
   description: 'Orientation Map',
-  detectAvailablePopupSpace: false,
   div: 'map',
   fullscreenControl: true,
   hashControl: true,
@@ -250,7 +249,7 @@ var NPMap = {
         text: 'Watch a video of the area'
       }],
       title: '{{name}}',
-      description: '<img src="{{photoURL}}" style="width:400px;height:168px"><p><b>Activities:</b> {{activities}}</p><p><b>Services:</b> {{services}}</p>'
+      description: '<div class="responsive-container"><img src="{{photoURL}}"></div><p><b>Activities:</b> {{activities}}</p><p><b>Services:</b> {{services}}</p>'
     },
     styles: {
       point: {

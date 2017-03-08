@@ -3,6 +3,23 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <style>
+      @media only screen and (min-width: 768px) {
+        .leaflet-popup-content-wrapper {
+          width: 400px;
+        }
+      }
+      .responsive-container {
+          width: 100%;
+          padding-bottom: 35.66%;
+          position: relative;
+      }
+      .responsive-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
       body {
         margin: 0;
         padding: 0;
