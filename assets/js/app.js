@@ -204,6 +204,7 @@ var NPMap = {
     lng: -123.6703
   },
   description: 'Orientation Map',
+  detectAvailablePopupSpace: false,
   div: 'map',
   fullscreenControl: true,
   hashControl: true,
