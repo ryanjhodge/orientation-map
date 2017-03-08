@@ -247,15 +247,8 @@ var NPMap = {
     id: 'ryanjhodge.eb91f439'
   }, {
     popup: {
-      actions: [{
-        handler: function () {
-          var win = window.open('https://youtu.be/5aFYZV_PLJs', '_blank');
-          win.focus();
-        },
-        text: 'Watch a video of the area'
-      }],
       title: '{{name}}',
-      description: '<div class="responsive-container"><img src="{{photoURL}}"></div><p><b>Activities:</b> {{activities}}</p><p><b>Services:</b> {{services}}</p>'
+      description: '<div class="responsive-container"><img src="{{photoURL}}"></div><p><b>Activities:</b> {{activities}}</p><p><b>Services:</b> {{services}}</p> <p><a href="{{webURL}}">Learn More >> </a></p>'
     },
     styles: {
       point: {
