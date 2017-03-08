@@ -8,7 +8,12 @@ var App = {
     var localities = this.localities;
 
     map.removeLayer(infoLayer);
-
+    console.log(window.screen.availWidth)
+    if (window.screen.availWidth < 426) {
+      console.log(window.screen.availWidth)
+      NPMap.config.L.closeModules()
+    }
+    
     for (var key in localities) {
       if (localities.hasOwnProperty(key)) {
         var section = document.createElement('section');
