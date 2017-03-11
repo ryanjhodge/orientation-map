@@ -33,7 +33,7 @@ var App = {
     localitiesModuleContent.lastChild.style.marginBottom = String(window.innerHeight * 0.50) + 'px';
 
     map.on('zoom', function () {
-      if (map.getZoom() >= 11) {
+      if (map.getZoom() >= 10) {
         map.addLayer(infoLayer);
       } else {
         map.removeLayer(infoLayer);
