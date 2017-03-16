@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kestner Homestead",
+        "videoURL": "https://youtu.be/82geFIfdqg4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8252305984497,
+          47.50562043755685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hurricane Ridge",
+        "videoURL": "https://youtu.be/RYzWf-1Bim8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.49821031093596,
+          47.96907456698252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klahhane Ridge",
+        "videoURL": "https://youtu.be/L77Mm8lQs1U"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.44645977020264,
+          47.99397125126142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoh Rain Forest",
+        "videoURL": "https://www.youtube.com/watch?v=NrI7zM0coxw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.93276572227478,
+          47.86304645737176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Crescent East Beach",
+        "videoURL": "https://youtu.be/aj9bYMGk_6k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.74355733394621,
+          48.08577513740436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rialto Beach",
+        "videoURL": "https://youtu.be/5aFYZV_PLJs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.63919520378111,
+          47.92244652188541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Staircase",
+        "videoURL": "https://www.youtube.com/watch?v=yO5wtVlLqW4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.33496570587157,
+          47.519722217953756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storm King, Barnes Point, Marymere Falls",
+        "videoURL": "https://youtu.be/UiL36ZxLP_k"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.78828048706055,
+          48.052783597999955
+        ]
+      }
+    }
+  ]
+}
