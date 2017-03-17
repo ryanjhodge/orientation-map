@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Kestner Homestead",
-        "videoURL": "https://youtu.be/82geFIfdqg4"
+        "youtubeID": "82geFIfdqg4"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hurricane Ridge",
-        "videoURL": "https://youtu.be/RYzWf-1Bim8"
+        "youtubeID": "RYzWf-1Bim8"
       },
       "geometry": {
         "type": "Point",
@@ -33,7 +33,7 @@
       "type": "Feature",
       "properties": {
         "name": "Klahhane Ridge",
-        "videoURL": "https://youtu.be/L77Mm8lQs1U"
+        "youtubeID": "L77Mm8lQs1U"
       },
       "geometry": {
         "type": "Point",
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hoh Rain Forest",
-        "videoURL": "https://www.youtube.com/watch?v=NrI7zM0coxw"
+        "youtubeID": "NrI7zM0coxw"
       },
       "geometry": {
         "type": "Point",
@@ -60,8 +60,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lake Crescent East Beach",
-        "videoURL": "https://youtu.be/aj9bYMGk_6k"
+        "name": "East Beach",
+        "youtubeID": "aj9bYMGk_6k"
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rialto Beach",
-        "videoURL": "https://youtu.be/5aFYZV_PLJs"
+        "youtubeID": "5aFYZV_PLJs"
       },
       "geometry": {
         "type": "Point",
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "name": "Staircase",
-        "videoURL": "https://www.youtube.com/watch?v=yO5wtVlLqW4"
+        "youtubeID": "yO5wtVlLqW4"
       },
       "geometry": {
         "type": "Point",
@@ -102,8 +102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Storm King, Barnes Point, Marymere Falls",
-        "videoURL": "https://youtu.be/UiL36ZxLP_k"
+        "name": "Marymere Falls",
+        "youtubeID": "UiL36ZxLP_k"
       },
       "geometry": {
         "type": "Point",

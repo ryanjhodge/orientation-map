@@ -4,16 +4,16 @@ var App = {
   initialize: function () {
     var map = NPMap.config.L;
     var infoLayer = NPMap.config.overlays[1].L;
+    var videoLayer = NPMap.config.overlays[2].L;
     var localitiesModuleContent = document.getElementById('npmap-module_Localities').childNodes[1];
     var localities = this.localities;
 
     map.removeLayer(infoLayer);
-    console.log(window.screen.availWidth)
+    map.removeLayer(videoLayer);
     if (window.screen.availWidth < 426) {
-      console.log(window.screen.availWidth)
-      NPMap.config.L.closeModules()
+      NPMap.config.L.closeModules();
     }
-    
+
     for (var key in localities) {
       if (localities.hasOwnProperty(key)) {
         var section = document.createElement('section');
@@ -37,6 +37,12 @@ var App = {
         map.addLayer(infoLayer);
       } else {
         map.removeLayer(infoLayer);
+      }
+
+      if (map.getZoom() >= 12) {
+        map.addLayer(videoLayer);
+      } else {
+        map.removeLayer(videoLayer);
       }
     });
 
@@ -259,6 +265,20 @@ var NPMap = {
     },
     type: 'geojson',
     url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/data/localities.geojson'
+  }, {
+    styles: {
+      point: {
+        'marker-symbol': 'cinema',
+        'marker-library': 'maki',
+        'marker-color': '#1b99aa'
+      }
+    },
+    popup: {
+      description: '<div class="video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/' + '{{youtubeID}}" frameborder="0" allowfullscreen></iframe></div>'
+    },
+    tooltip: 'Watch a video of {{name}}',
+    type: 'geojson',
+    url: 'https://raw.githubusercontent.com/ryanjhodge/orientation-map/master/data/videos.geojson'
   }],
   title: 'Olympic National Park',
   zoom: 9,
