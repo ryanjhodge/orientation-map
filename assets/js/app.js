@@ -1,4 +1,4 @@
-/* globals $, L */
+/* globals L */
 
 var App = {
   initialize: function () {
